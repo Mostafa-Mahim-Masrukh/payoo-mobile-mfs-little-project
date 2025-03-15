@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home Page</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone border-primary">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display bg-gray-300">
+
+
+
+                <!-- available balance ----  -->
+                <div class="flex justify-center mt-10 text-center">
+                    <div class="stat">
+                        <div class="stat-title">Available balance</div>
+                        <div class="stat-value">89,400</div>
+                        <div class="text-xl font-bold">BDT</div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+
+                <!-- all buttons ------ -->
+
+                <div class="stat flex justify-center">
+                    <button class="btn btn-primary mb-5">Add Money</button>
+                    <button class="btn btn-success">Withdraw</button>
+                </div>
+
+
+                <!-- input-field----------   -->
+                <div>
+                    <label class="input validator mx-auto flex justify-center mb-5">
+                        <input type="text" placeholder="Amount (BDT)" required />
+                    </label>
+
+                    <label class="input validator mx-auto flex justify-center">
+                        <input type="text" placeholder="PIN" required />
+                    </label>
+
+                </div>
+
+    </main>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
